@@ -1,17 +1,28 @@
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Blackpink photoards</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
         <nav class="navbar">
             <ul class="link-group">
                 <li class="link"><a href="index.html">home</a></li>
-                <li class="link active"><a href="meebers.html">search by members</a></li>
-                <li class="link"><a href="era.html">search by era</a></li>
-                <li class="link"><a href="#">merch</a></li>
+                <li class="link active"><a href="meebers.html">search</a></li>
+                <li class="link"><a href="era.html">контакты</a></li>
+                <li class="link"><a href="#">о себе</a></li>
             </ul>
         </nav>
     </head>
     <body bgcolor="f7dde0">
-       <h1>Привет</h1>
+        <br><br><br><br><br>
+        <div>
+            <py-script> 
+                import os
+                import pathlib
+                directory = "photocards"
+                print(os.getcwd())
+            </py-script>|
+        </div>
     </body>
 </html>
